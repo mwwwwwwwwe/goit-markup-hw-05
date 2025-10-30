@@ -641,11 +641,6 @@ margin: auto;
   margin-left: 16px;
 }
 
-
-.overlay-is-visible {
-  
-}
-
 .overlay-is-visible {
   position: fixed;
   top: 0;
@@ -887,3 +882,4 @@ input[type="checkbox"]:checked + .formbox-agreement-label .formbox-checkbox-okey
     right: 24px;
   }
 }
+
