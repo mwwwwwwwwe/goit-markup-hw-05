@@ -787,9 +787,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .formbox-input:focus {
   border-color: #4d5ae5;
 }
-.formbox-input-icon-person,
-.formbox-input-icon-tell,
-.formbox-input-icon-email {
+.formbox-input-icon-person
+ {
   position: absolute;
   top: 50%;
   left: 16px;
@@ -801,10 +800,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.formbox-input-wrapper:focus-within .formbox-input-icon-person,
-.formbox-input-wrapper:focus-within .formbox-input-icon-tell,
-.formbox-input-wrapper:focus-within .formbox-input-icon-email {
-  fill: #4d5ae5;
+.formbox-input-wrapper:focus-within .formbox-input-icon-person {
+  fill: color var(--accent-color);
 } 
 
 .formbox-textarea {
@@ -903,6 +900,7 @@ input[type="checkbox"]:checked + .formbox-agreement-label .formbox-checkbox-okey
   --secondary-text-color: #434455;
   --bg-light: #f4f4fd;
   --input-border: rgba(46, 47, 66, 0.4);
+  --check-color: #F4F4FD;
 }
 
 .formbox-submit-btn {
