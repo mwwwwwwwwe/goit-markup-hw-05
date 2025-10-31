@@ -850,15 +850,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 
-.formbox-checkbox-okey-icon{
-  display: inline-flex;
-}
-
-
-.formbox-checkbox-text{
-  fill: transparent;
-}
-
 .formbox-checkbox-okey {
   display: inline-flex;
   justify-content: center;
@@ -875,6 +866,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .formbox-checkbox-okey-icon {
+  display: inline-flex;
   width: 10px;
   height: 8px;
   fill: transparent;
