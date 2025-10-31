@@ -528,7 +528,7 @@ font-weight: 400;
   background-color: #31d0aa;
 }
 .footer-transition {
-  fill: #f4f4fd;
+  fill: #F4F4FD;
 }
 
 
@@ -584,7 +584,7 @@ font-weight: 400;
   border-radius: 4px;
   width: 288px;
   height: 40px;
-  color: #f4f4fd;
+  color: #F4F4FD;
   background-color: transparent;
   outline: transparent;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -608,6 +608,12 @@ font-weight: 400;
 
 .footer-form-input:focus {
   border-color: #404bbf;
+}
+
+
+.footer-form-input:hover,
+.footer-form-input:focus {
+  border-color: #31D0AA; 
 }
 
 .subscribe-btn {
@@ -638,7 +644,7 @@ margin: auto;
 
 .subscribe-btn:hover,
 .subscribe-btn:focus {
-  background-color: #404bbf;
+  background-color: #31D0AA;
 }
 .btn-icon {
   fill: currentColor;
@@ -887,7 +893,7 @@ input[type="checkbox"]:checked + .formbox-agreement-label .formbox-checkbox-okey
   --white-color: #ffffff;
   --main-text-color: #2e2f42;
   --secondary-text-color: #434455;
-  --bg-light: #f4f4fd;
+  --bg-light:#F4F4FD;
   --input-border: rgba(46, 47, 66, 0.4);
 }
 
