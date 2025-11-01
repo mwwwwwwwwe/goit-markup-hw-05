@@ -838,7 +838,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .formbox-agreement-label {
 
-  display: inline-flex;
+  
 
   align-items: flex-start;
   gap: 8px;
@@ -851,7 +851,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .formbox-checkbox-okey {
 
-  display: inline-flex;
+  
  
   fill: transparent;
 
@@ -878,8 +878,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .formbox-checkbox-okey-icon,
 .formbox-checkbox-okey-icon use {
-  display: inline-flex;
   
+
   fill: transparent;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
