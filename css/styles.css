@@ -832,7 +832,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .formbox-agreement {
   height: 16px;
   margin-bottom: 24px;
-  display: inline-flex;
+  
   align-items: flex-start;
 }
 
@@ -851,7 +851,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .formbox-checkbox-okey {
 
-  
+  display: inline-flex;
  
   fill: transparent;
 
